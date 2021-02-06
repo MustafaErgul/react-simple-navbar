@@ -2,3 +2,22 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.navbar-item {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-family: monaco, Consolas, Lucida Console, monospace;
+  margin: 25px;
+}
+
+.is-active {
+  text-decoration: underline;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
