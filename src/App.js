@@ -11,7 +11,15 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="container mt-2" style={{ marginTop: 40 }}>
+      <div
+        className="container mt-2"
+        style={{
+          marginTop: 40,
+          textAlign: "center",
+          marginLeft: 50,
+          marginRight: 50
+        }}
+      >
         <Switch>
           <Route exact path="/">
             <Home />
